@@ -1,0 +1,201 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+/* reuseable area */
+.w-30{
+  width: 30%;
+}
+.w-35{
+  width: 35%;
+}
+.w-36{
+  width: 36%;
+}
+.w-75{
+  width: 75%;
+}
+.w-90{
+  width: 90%;
+}
+.w-37{
+  width: 37%;
+}
+.w-40{
+  width: 40%;
+}
+.mr-20{
+  margin-right: 20px;
+}
+.mt-15{
+  margin-top: 15px;
+}
+.mt-50{
+  margin-top: 50px;
+}
+.mt-12{
+  margin-top: 12px;
+}
+.mb-10{
+  margin-bottom: 10px;
+}
+.ml-150{
+  margin-left: 150px;
+}
+.nml-135{
+  margin-left: -135px;
+}
+.fw-700{
+  font-weight: 700;
+}
+.color-1{
+  color: #FD511A;
+}
+.container{
+  max-width: 1200px;
+}
+
+
+/* header area */
+header{
+  background: #F0FFF0;
+  height: 700px;
+  overflow: hidden;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+}
+.sign-in-btn{
+  background: #21B573;
+  border: none;
+  border-radius: 20px;
+}
+.dis-4{
+  font-size: 55px;
+  font-weight: 700;
+}
+.dis-4 span{
+  color: #21B573;
+}
+.getting-started-btn{
+  background: #21B573;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  margin: 2.5rem 0;
+}
+.getting-started-btn:hover{
+  text-decoration: none;
+  color: white;
+}
+
+
+/* learn anything area */
+#learn-anything .row{
+  margin: 80px 0;
+}
+#learn-anything .img-bx{
+  padding: 30px 40px;
+  background: #F8FFFB;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#learn-anything .img-bx:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.459);
+  background: #fff;
+}
+#learn-anything .img-bx img{
+  margin-bottom: 20px;
+}
+
+
+/* courses area */
+#courses .card{
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.486);
+  border-radius: 20px;
+}
+#courses .card img{
+  margin:0 auto;
+  margin-top: 15px;
+}
+#courses .card p{
+  color: grey;
+}
+#courses .card .buy-course-btn{
+  background: #21B573;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: white;
+  margin: 2.5rem 0;
+}
+#courses .card .para{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* testimonials area */
+#testimonials{
+  background: #262626;
+  position: relative;
+}
+.img-area{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  border-radius: 50%;
+  overflow: hidden; 
+}
+.img-area img{
+  width: 100%;
+}
+.carousel-caption{
+  position: static;
+  padding-bottom: 15px;
+  padding-top: 0;
+}
+.carousel-caption h4{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.carousel-indicators{
+  margin-bottom: -25px;
+}
+.carousel-indicators li{
+  transition: all .2s ease-in-out;
+  width: 10px;
+  height: 5px;
+  background-color:grey;
+  border: none;
+  border-radius: 15px;
+}
+.carousel-indicators .active{
+  width: 25px;
+}
+
+/* footer area */
+footer{
+  background: #282531;
+}
+footer ul li h5{
+  font-weight: 700;
+}
+footer ul li{
+  list-style: none;
+  line-height: 30px;
+}
+
+/* response area */
+@media(max-width:768px){
+  header{
+      height: 1000px;
+  }
+}
